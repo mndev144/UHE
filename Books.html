@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uncle Hugo and Uncle Edgar-Books</title>
+    <link rel="stylesheet" href="Styles/book_about.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="script" href="javascript/javascript.js">
+    <link rel="stylesheet" href="https://use.typekit.net/jyp7ngs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="wordmark-logo">
+        <img class="header-image" src="img/UHE_round4.png">
+        <div class="sub-title">
+            <p>Books</p>
+        </div>
+    </div>
+</header>
+<nav role="navigation">
+    <div class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="index.html" alt="link to home page">Home</a></li>
+            <li><a href="Books.html" alt="link to books page">Books</a></li>
+            <li><a href="about.html" alt="link to about page">About</a></li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <div class="book-container">
+        <div class="releases">
+            <h2>Results</h2>
+        </div>
+        <div class="search-results">
+            <div class="topnav">
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="search title" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+            <div class="accordion-container">
+                <button class="accordion">Author</button>
+                <div class="panel">
+                    <p>Housewright,David</p>
+                    <p>McMaster Bujold,Lois</p>
+                    <p>Stevermer,Caroline</p>
+                </div>
+
+                <button class="accordion">Location</button>
+                <div class="panel">
+                    <p>Uncle Hugo</p>
+                    <p>Uncle Edgar</p>
+                </div>
+
+                <button class="accordion">Format</button>
+                <div class="panel">
+                    <p>soft cover</p>
+                    <p>hard cover</p>
+                </div>
+                <button class="accordion">Publisher</button>
+                <div class="panel">
+                    <p>Down & Out Books</p>
+                    <p>Penguin</p>
+                    <p>Tachyon</p>
+                </div>
+            </div>
+            </div>
+            <div class="right-container">
+
+                <div class="book-results">
+                    <div class="book-option">
+                        <div class="image-container">
+                            <img class="cover-image" src="img/book.jpg" alt="front cover of Finders keepers">
+                        </div>
+                        <p class="book-title">Finders Keepers</p>
+                        <p class="author-name">David Housewright</p>
+                        <p class="price">$5.99</p>
+                    </div>
+                    <div class="book-option">
+                        <div class="image-container">
+                            <img class="cover-image" src="img/summerlong.jpg" alt="front cover of Saturn Run">
+                        </div>
+                        <p class="book-title">Summerlong</p>
+                        <p class="author-name">Peter S. Beagle</p>
+                        <p class="price">$5.99</p>
+                    </div>
+                    <div class="book-option">
+                        <div class="image-container">
+                            <img class="cover-image" src="img/saturn.jpg" alt="front cover of Saturn Run">
+                        </div>
+                        <p class="book-title">Saturn Run</p>
+                        <p class="author-name">John Sanford & Ctein</p>
+                        <p class="price">$5.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <p class="info-header">Address</p>
+            <p class="info">2864 Chicago Avenue South</p>
+            <p class="info">Minneapolis MN 55407</p>
+        </div>
+        <div class="footer-info">
+            <p class="info-header">Phone</p>
+            <p class="info">Uncle Hugo: (612)824-6347</p>
+            <p class="info">Uncle Edgar:(612)824-9984</p>
+        </div>
+        <div class="footer-info">
+            <p class="info-header">Fax</p>
+            <p class="info">Uncle Hugo:Fax: 612-827-6394</p>
+            <p class="info">Uncle Edgar:Fax: 612-827-6394</p>
+        </div>
+        <div class="footer-info">
+            <p class="info-header">Store Hours</p>
+            <p class="info">Monday-Friday 10am-7pm</p>
+            <p class="info"> Saturday 10am-6pm</p>
+            <p class="info">Sunday 12pm-5pm</p>
+        </div>
+    </div>
+</footer>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+</body>
+</html>

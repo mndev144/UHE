@@ -1,0 +1,237 @@
+/*Global*/
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color:#56668C;
+}
+h2{
+    width: 70%;
+    text-align: center;
+    padding:15px 0;
+    font-family:rogliano, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #EA6A20;
+}
+h3{
+    text-align: center;
+    font-family:canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+h4{
+    padding: 20px 0 10px 0;
+    text-align: center;
+    font-family:canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+p{
+    font-family:canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff;
+}
+.guest{
+    text-align: center;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.book-title{
+    font-family:canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+.author-name{
+    padding-bottom: 25px;
+    font-family:canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/*header*/
+
+header{
+    padding: 50px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/UHE_place.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-image{
+    display: flex;
+}
+.header-image{
+    width: 509px;
+    height:600px;
+}
+.header-text-hugo{
+    padding: 50px 0;
+    text-align: center;
+    font-family:rogliano, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #EA6A20;
+}
+.header-text-edgar{
+    padding: 50px 0;
+    text-align: center;
+    font-family:rogliano, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #093266;
+}
+
+
+
+
+
+
+/*navigation*/
+.nav-bar{
+    background-color:#093266;
+    padding: 15px 0;
+
+}
+a:link{
+    text-decoration: none;
+    color: #fff;
+}
+a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #ea6a20;
+}
+.nav-bar>ul{
+    text-align: center;
+    list-style: none;
+}
+.nav-bar .nav-links>li{
+    padding: 0 60px;
+    display: inline-block;
+    font-family:rogliano, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+
+
+
+
+
+.container{
+    margin: 0 auto;
+    width: 1600px;
+    display: flex;
+    padding: 20px 0 30px 0;
+}
+.container .events{
+    background-color:#f0752e;
+    flex:1 0 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.events>h2{
+    padding:15px 0;
+    text-align: center;
+    font-family:rogliano, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+.portrait-size{
+    width:60%;
+}
+.container .new-releases{
+    flex:1 0 80%;
+}
+.option{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.description-container{
+    flex: 0 1 80%;
+    padding-top: 20px;
+}
+.cover-size{
+    width:15%;
+    padding-top: 20px;
+
+}
+
+.image{
+    width: 100%;
+}
+
+
+/*footer*/
+footer{
+    background-color: #313946;
+    padding: 75px 0;
+}
+.footer-container{
+    width:1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-info{
+
+
+}
+.info-header{
+    font-family:canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+}
+.info{
+    font-family:canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff;
+}
+
